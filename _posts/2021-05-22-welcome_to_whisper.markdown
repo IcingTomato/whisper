@@ -2,6 +2,7 @@
 layout: post
 title:  "Welcome to Jekyll for Whisper Theme!"
 date:   2021-05-22 10:00:00
+categories: post welcome
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
@@ -21,7 +22,7 @@ print_hi('Tom')
 
 If you want to post this site on your ECS or VPS, please follow the code block to configuration this theme:
 
-{% highlight ruby %}
+{% highlight shell %}
 git clone -b main http://github.com/ch1hfe1/whisper.git
 cd whisper
 gem install jekyll
