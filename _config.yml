@@ -1,5 +1,5 @@
-name: module PeterPan;
-description: 今朝有鱼今朝摸
+name: /bin/cat
+description: Enjoy it while it lasts, because it never does.
 meta_description: "Enjoy it while it lasts, because it never does."
 
 markdown: kramdown

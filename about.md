@@ -11,26 +11,27 @@ title: About me
     
         <p>
             The man <s> can use magic </s> who studies Electronic information, Information Security, Computer Science, Japanese, Law, 
-            <strong>BUT he is still a Business English student</strong>.
+            <strong>BUT he is still a Business English major student</strong>.
         </p>
-    
 
         <h5>Properties</h5>
 
         <ul>
-            <li>Arduino Enthusiast</li> 
-            <li>FPGA Hobbyist</li>
+            <li>Linux User (Debian/Ubuntu/RHEL/CentOS/Fedora...)</li>
+            <li>Embedded Enthusiast (FPGA/MPU/MCU/DSP/SoC...)</li>
             <li>Display Collector</li>
-            <li>Embedded(MPU/MCU/DSP/SoC) Player</li>
-            <li>Language(C/C++/Python/Assembly/English/Français/Deutsch/日本語) Amateur</li>
-            <li><s>(Bugs Loader)</s></li>
+            <li>Radio Amateur</li>
+            <li>C/C++/Python/Assembly/HTML/CSS/JS/Ruby/MySQL...</li>
+            <li>Cantonese/English/日本語/Français/Deutsch/Русская</li>
+            <li><s> Bugs Creater </s></li>
+            <li><s> Хорошо ハラショー </s></li>
         </ul>
     
         <h5>About this Blog</h5>
     
         <p>This pages made by <a href="https://pages.github.com/">GitHub Pages</a> and <a href="http://jekyll.com.cn/">Jekyll</a>. </p>
     
-        <h5>Surprise Pages</h5>
+        <h5>Some Pages...</h5>
 
         <p>
             Here is some pages I designed. In pursuit of absolute simplicity.
@@ -45,7 +46,7 @@ title: About me
             <li><a href="http://ch1hfe1.gitee.io/sosdan/index.html">SOS団のサイト</a></li>
         </ul>
     
-        <h5>Friends</h5>
+        <h5>Friends & Links</h5>
 
         <p>
             Presenting some excellent geeks and my alma mater to you.
@@ -67,10 +68,7 @@ title: About me
             <li><a href="http://techlee.fun/">Anson Lee | 钛科闹了技Technology</a></li>
         </ul>
 
-        <h5>Where Are You</h5>
 
-        <script type="text/javascript" src="//rf.revolvermaps.com/0/0/6.js?i=5519oi3k6f4&amp;m=7&amp;c=e63100&amp;cr1=ffffff&amp;f=arial&amp;l=0&amp;bv=90&amp;lx=-420&amp;ly=420&amp;hi=20&amp;he=7&amp;hc=a8ddff&amp;rs=80" async="async"></script>
-        
 </div>
 
 <footer class="post-footer">
