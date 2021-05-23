@@ -5,13 +5,25 @@ date:   2021-02-19 00:00:00
 categories: post jekyll
 ---
 
-This tutorial you will learn how to configure Jekyll-4 on Ubuntu 16.04.
+This tutorial you will learn how to configure Jekyll-4 on Ubuntu 16.04/18.04.
 
 <!--more-->
 
-Here is the blog repository: [ch1hfe1.github.io.old](https://github.com/ch1hfe1/ch1hfe1.github.io.old)
+# Catalogue
 
-# Jekyll-4 Installation Ubuntu 16.04
+- [Jekyll-4 Installation Ubuntu 16.04](#1)
+- [Nginx Setup](#2)
+- [GitHub Local Repository Setup](#3)
+- [Git roll back to some commit](#4)
+- [Jekyll Maintaining Tutorial](#5)
+- [Jekyll Code Block for Liquid-Like](#6)
+- [Finally...](#7)
+- [My Second Jekyll Blog](#8)
+- [Git Dual Repository Setup](#9)
+
+Here is the blog repository: [ch1hfe1.github.io.old](https://github.com/ch1hfe1/ch1hfe1.github.io.old)/[ch1hfe1.github.io.old3](https://github.com/ch1hfe1/ch1hfe1.github.io.old3)
+
+# <span id="1">Jekyll-4 Installation Ubuntu 16.04</span>
 
 First, we should install Ruby3.0.0 for Ubuntu 16.04/18.04:
 
@@ -95,7 +107,7 @@ After installation, you can clone your repository from `GitHub` or `GitLab`.
 git clone https://github.com/ch1hfe1/ch1hfe1.github.io.old.git
 ```
 
-# Nginx Setup
+# <span id="2">Nginx Setup</span>
 
 Well, you can also use `Apache` which use `sudo apt-get install apache2` on Debian/Ubuntu or `sudo yum install httpd` on CentOS/RHEL/Fedora.
 
@@ -170,7 +182,7 @@ sudo systemctl restart nginx
 # On AWS, you must use systemctl to start, stop, enable, disable, restart a service.
 ```
 
-# GitHub Local Repository Setup
+# <span id="3">GitHub Local Repository Setup</span>
 
 ```shell
 git init
@@ -181,14 +193,14 @@ git remote add origin repo_address
 git push -u origin master
 ```
 
-# Git roll back to some commit
+# <span id="4">Git roll back to some commit</span>
 
 ```shell
 git reset --hard 某个commit id
 git push -f -u origin master
 ```
 
-# Jekyll Maintaining Tutorial
+# <span id="5">Jekyll Maintaining Tutorial</span>
 
 You can make a quick start for surfing the Jekyll blog:
 
@@ -333,7 +345,7 @@ tags:
 ---
 ```
 
-# Jekyll Code Block 
+# <span id="6">Jekyll Code Block for Liquid-Like</span> 
 
 In Jekyll, some Ruby code block can't generate perfectly.
 
@@ -341,14 +353,85 @@ So, we can use [raw tag](https://shopify.github.io/liquid/tags/template/) to avo
 
 `{% raw %}{% raw %}{% endraw %}`
 
-You can use `{% raw %}{% highlight ruby %}{% endhighlight %}{% endraw %}` for code highlight:
+You can use `{% raw %}{% highlight ruby %}{% endhighlight %}{% endraw %}` for code highlight.
 
-# Finally
+# <span id="7">Finally...<span>
 
 ```shell
 cd your.folder
 git clone repo.address
 git pull origin master
 jekyll build -d /var/www/html/
+```
+
+# <span id="8">My Second Jekyll Blog</span>
+
+Here is the blog repository: [ch1hfe1.github.io.old2](https://github.com/ch1hfe1/ch1hfe1.github.io.old2)
+
+You can use these command line for configuring the blog:
+
+```shell
+cd <the folder>
+git clone https://github.com/ch1hfe1/ch1hfe1.github.io.old2.git
+bundle add webrick rake
+bundle install --path vendor/cache
+git pull origin master
+bundle exec jekyll build -d /var/www/html/
+```
+
+First, you need to install some Dependence like **webrick** **rake** **jekyll**.
+
+And then, in my case, I had a PATH problem.
+
+```
+Bundler::GemNotFound: Could not find rake-10.3.2 in any of the sources
+~/.rvm/gems/ruby-2.0.0-p451/gems/bundler-1.6.2/lib/bundler/spec_set.rb:92:in `block in materialize'
+~/.rvm/gems/ruby-2.0.0-p451/gems/bundler-1.6.2/lib/bundler/spec_set.rb:85:in `map!'
+~/.rvm/gems/ruby-2.0.0-p451/gems/bundler-1.6.2/lib/bundler/spec_set.rb:85:in `materialize'
+~/.rvm/gems/ruby-2.0.0-p451/gems/bundler-1.6.2/lib/bundler/definition.rb:133:in `specs'
+~/.rvm/gems/ruby-2.0.0-p451/gems/bundler-1.6.2/lib/bundler/definition.rb:178:in `specs_for'
+Show 28 more lines
+```
+
+I used `gem install rake` but it was no use fixing the matter.
+
+SO, `bundle install --path vendor/cache` can help you fix the problem.
+
+This command line generally fixes it as that is the more common problem. Basically, my bundler path configuration is messed up. See their [documentation](https://bundler.io/v1.11/man/bundle-config.1.html) (first paragraph) for where to find those configurations and change them manually if needed.
+
+# <span id="9">Git Dual Repository Setup</span>
+
+Everytime I finish my blog, I have to push to two different platform: [GitHub](https://github.com/) and [Gitee](https://gitee.com/).
+
+[Gitee](https://gitee.com/) is a collaboration platform for software development & code hosting in China Mainland.
+
+Because I use Ali ECS Area Hangzhou, it's hard to visit GitHub, so I have to use Gitee.
+
+So
+
+```shell
+cd 'your-repository-path'
+git remote add gitee 'your-gitee-repository-address'
+git push gitee master    # Push to 'gitee'
+git push origin master   # Push to 'github' 
+```
+
+You can also change `your-repository/.git/config`
+
+```
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	url = 'your-github-repository-address'
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
+[remote "gitee"]
+	url = 'your-gitee-repository-address'
+	fetch = +refs/heads/*:refs/remotes/gitee/*
 ```
 
