@@ -39,7 +39,7 @@ title: About me
     
         <ul>
             <li><a href="https://panzhifei.fun/post/">403 page</a></li>
-            <li><a href="https://panzhifei.fun/2019">404 page</a></li>
+            <li><a href="https://panzhifei.fun/500.html">404 page</a></li>
             <li><a href="https://ch1hfe1.gitee.io/chp/index.html">Rainbow Fart Generater</a></li>
             <li><a href="http://ch1hfe1.gitee.io/simple-tool-pages/bilibili-fans/#208259">bilibili fan counter</a></li>
             <li><a href="http://ch1hfe1.gitee.io/simple-tool-pages/flip-clock/">Flip Clock</a></li>
