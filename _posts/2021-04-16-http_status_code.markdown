@@ -59,18 +59,12 @@ categories: post network
 <tr>
 <td>100</td>
 <td>Continue</td>
-<td>继续。客户端应继续其请求</td>
+<td>继续。<a href="http://www.dreamdu.com/webbuild/client_vs_server/">客户端</a>应继续其请求</td>
 </tr>
 <tr>
 <td>101</td>
 <td>Switching Protocols</td>
 <td>切换协议。服务器根据客户端的请求切换协议。只能切换到更高级的协议，例如，切换到HTTP的新版本协议</td>
-</tr>
-<tr>
-<tr>
-<td>102</td>
-<td>Processing (WebDAV; RFC 2518)</td>
-<td>处理中，WebDAV请求可能包含许多涉及文件操作的子请求，需要很长时间才能完成该请求。此代码表明服务器已接收并正在处理请求，但是尚无响应。这样可以防止客户端超时并假设请求已丢失</td>
 </tr>
 <tr>
 <td colspan="3"></td>
@@ -109,11 +103,6 @@ categories: post network
 <td>206</td>
 <td>Partial Content</td>
 <td>部分内容。服务器成功处理了部分GET请求</td>
-</tr>
-<tr>
-<td>207</td>
-<td>Multi-Status (WebDAV; RFC 4918)</td>
-<td>多重状态，默认情况下，后面的消息主体是XML消息，并且可以包含多个单独的响应代码，具体取决于发出多少子请求</td>
 </tr>
 <tr>
 <td colspan="3"></td>
@@ -159,11 +148,6 @@ categories: post network
 <td>临时重定向。与302类似。使用GET请求重定向</td>
 </tr>
 <tr>
-<td>308</td>
-<td>Permanent Redirect (RFC 7538)</td>
-<td>永久重定向，该请求和所有以后的请求应使用另一个URI重复。307和308与302和301的行为并行，但不允许HTTP方法更改。因此，例如，将表单提交到永久重定向的资源可能会继续顺利进行</td>
-</tr>
-<tr>
 <td colspan="3"></td>
 </tr>
 <tr>
@@ -179,7 +163,7 @@ categories: post network
 <tr>
 <td>402</td>
 <td>Payment Required</td>
-<td>需要付款，保留，将来使用</td>
+<td>保留，将来使用</td>
 </tr>
 <tr>
 <td>403</td>
@@ -255,12 +239,6 @@ categories: post network
 <td>417</td>
 <td>Expectation Failed</td>
 <td>服务器无法满足Expect的请求头信息</td>
-</tr>
-<tr>
-<tr>
-<td>418</td>
-<td>I'm a teapot (RFC 2324, RFC 7168)</td>
-<td>我是个茶壶，该代码在1998年被定义为RFC 2324（超文本咖啡壶控制协议）中传统的IETF 愚人节笑话之一，并且预计不会由实际的HTTP服务器实现。RFC指定此代码应由请求冲泡咖啡的茶壶返回</td>
 </tr>
 <tr>
 <td colspan="3"></td>
