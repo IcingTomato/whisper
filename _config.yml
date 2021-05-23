@@ -12,5 +12,5 @@ plugins: [jekyll-paginate]
 excerpt_separator: <!--more-->
 
 # Details for the RSS feed generator
-url: ""
+url: "panzhifei.fun"
 author: "Peter Pan"
