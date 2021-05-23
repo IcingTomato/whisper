@@ -62,7 +62,7 @@ If you follow the step, congratulation, you cannot see any blog in your website.
 
 Just like this:
 
-![](//panzhifei.fun/img/post/2020/05/04/unsuspected_error.jpg)
+![](http://panzhifei.fun/img/post/2020/05/04/unsuspected_error.jpg)
 
 Well, because Ruby2.5 made its Bundler incompatible with Jekyll-4.0, so we have to uninstall Jekyll-4.0 and install the previous versions.
 
@@ -111,7 +111,7 @@ server {
 }
 ```
 
-![](//panzhifei.fun/img/post/2020/05/04/your_domain.jpg)
+![](http://panzhifei.fun/img/post/2020/05/04/your_domain.jpg)
 
 Finally, `Ctrl+O` and `Ctrl+X` to save and exit, then restart `nginx.service`:
 
