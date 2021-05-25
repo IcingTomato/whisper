@@ -18,6 +18,7 @@ title: About me
 
         <ul>
             <li>Linux User (Debian/Ubuntu/RHEL/CentOS/Fedora...)</li>
+            <li>Networking Engineer</li>
             <li>Embedded Enthusiast (FPGA/MPU/MCU/DSP/SoC...)</li>
             <li>Display Collector</li>
             <li>Radio Amateur</li>
@@ -43,7 +44,7 @@ title: About me
             <li><a href="https://ch1hfe1.gitee.io/chp/index.html">Rainbow Fart Generater</a></li>
             <li><a href="http://ch1hfe1.gitee.io/simple-tool-pages/bilibili-fans/#208259">bilibili fan counter</a></li>
             <li><a href="http://ch1hfe1.gitee.io/simple-tool-pages/flip-clock/">Flip Clock</a></li>
-            <li><a href="http://ch1hfe1.gitee.io/sosdan/index.html">SOS団のサイト</a></li>
+            <li><a href="http://ch1hfe1.gitee.io/sosdan/index.html">SOS団</a></li>
         </ul>
     
         <h5>Friends & Links</h5>
