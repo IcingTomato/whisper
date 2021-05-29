@@ -59,7 +59,7 @@ categories: post network
 <tr>
 <td>100</td>
 <td>Continue</td>
-<td>继续。<a href="http://www.dreamdu.com/webbuild/client_vs_server/">客户端</a>应继续其请求</td>
+<td>继续。客户端应继续其请求</td>
 </tr>
 <tr>
 <td>101</td>

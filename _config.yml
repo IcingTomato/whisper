@@ -1,5 +1,5 @@
-name: /bin/cat
-description: Enjoy it while it lasts, because it never does.
+name: Icing Tomato
+description: 糖霜西红柿アイシングトマト
 meta_description: "Enjoy it while it lasts, because it never does."
 
 markdown: kramdown
@@ -13,4 +13,4 @@ excerpt_separator: <!--more-->
 
 # Details for the RSS feed generator
 url: "panzhifei.fun"
-author: "Peter Pan"
+author: "Icing Tomato"
