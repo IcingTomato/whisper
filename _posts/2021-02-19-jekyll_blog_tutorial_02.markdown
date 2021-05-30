@@ -21,7 +21,7 @@ This tutorial you will learn how to configure Jekyll-4 on Ubuntu 16.04/18.04.
 - [My Second Jekyll Blog](#8)
 - [Git Dual Repository Setup](#9)
 
-Here is the blog repository: [ch1hfe1.github.io.old](https://github.com/ch1hfe1/ch1hfe1.github.io.old)/[ch1hfe1.github.io.old3](https://github.com/ch1hfe1/ch1hfe1.github.io.old3)
+Here is the blog repository: [blog.old](https://github.com/IcingTomato/blog.old)/[blog.old3](https://github.com/IcingTomato/blog.old3)
 
 # <span id="1">Jekyll-4 Installation Ubuntu 16.04</span>
 
@@ -104,7 +104,7 @@ gem install bundler jekyll github-pages jekyll-paginate webrick
 After installation, you can clone your repository from `GitHub` or `GitLab`.
 
 ```shell
-git clone https://github.com/ch1hfe1/ch1hfe1.github.io.old.git
+git clone https://github.com/IcingTomato/blog.old.git
 ```
 
 # <span id="2">Nginx Setup</span>
@@ -205,8 +205,8 @@ git push -f -u origin master
 You can make a quick start for surfing the Jekyll blog:
 
 ```shell
-git clone -b blank https://github.com/ch1hfe1/ch1hfe1.github.io.old.git
-cd ch1hfe1.github.io.old
+git clone -b blank https://github.com/IcingTomato/blog.old.git
+cd blog.old
 jekyll serve # jekyll s
 # => Now browse to http://localhost:4000
 ```
@@ -366,13 +366,13 @@ jekyll build -d /var/www/html/
 
 # <span id="8">My Second Jekyll Blog</span>
 
-Here is the blog repository: [ch1hfe1.github.io.old2](https://github.com/ch1hfe1/ch1hfe1.github.io.old2)
+Here is the blog repository: [blog.old2](https://github.com/IcingTomato/blog.old2)
 
 You can use these command line for configuring the blog:
 
 ```shell
 cd <the folder>
-git clone https://github.com/ch1hfe1/ch1hfe1.github.io.old2.git
+git clone https://github.com/IcingTomato/blog.old2.git
 bundle add webrick rake
 bundle install --path vendor/cache
 git pull origin master
