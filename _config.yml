@@ -1,11 +1,12 @@
-name: module PeterPan;
-description: 今朝有鱼今朝摸
+name: Welcome to Whisper
+description: Hello from Whisper
 meta_description: "Enjoy it while it lasts, because it never does."
 
 markdown: kramdown
 highlighter: rouge
 logo: false
 paginate: 15
+paginate_path: "/page:num"
 baseurl: ""
 plugins: [jekyll-paginate]
 
@@ -13,4 +14,4 @@ excerpt_separator: <!--more-->
 
 # Details for the RSS feed generator
 url: ""
-author: "Peter Pan"
+author: "Icing Tomato"
