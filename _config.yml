@@ -13,5 +13,5 @@ plugins: [jekyll-paginate]
 excerpt_separator: <!--more-->
 
 # Details for the RSS feed generator
-url: "panzhifei.fun"
+url: "icing.fun"
 author: "Icing Tomato"

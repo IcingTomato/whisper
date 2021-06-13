@@ -11,7 +11,7 @@ categories: post network
 
 DNS( Domain Name System)是“域名系统”的英文缩写，是一种组织成域层次结构的计算机和网络服务命名系统，它用于TCP/IP网络，它所提供的服务是用来将主机名和域名转换为IP地址的工作。DNS就是这样的一位“翻译官”，它的基本工作原理可用下图来表示。
 
-![](http://panzhifei.fun/img/post/2021/05/30/171327624.jpg)
+![](http://icing.fun/img/post/2021/05/30/171327624.jpg)
 
 # DNS域名称
 
@@ -21,19 +21,19 @@ DNS( Domain Name System)是“域名系统”的英文缩写，是一种组织�
 
 DNS 域的名称层次结构
 
-![](http://panzhifei.fun/img/post/2021/05/30/171354709.jpg)
+![](http://icing.fun/img/post/2021/05/30/171354709.jpg)
 
 # DNS域名称空间的组织方式
 
 按其功能命名空间中用来描述 DNS 域名称的五个类别的介绍详见下表中，以及与每个名称类型的示例。
 
-![](http://panzhifei.fun/img/post/2021/05/30/171409287.jpg)
+![](http://icing.fun/img/post/2021/05/30/171409287.jpg)
 
 # DNS 和 Internet 域
 
 互联网域名系统由名称注册机构负责维护分配由组织和国家/地区的顶级域在 Internet 上进行管理。 这些域名按照国际标准 3166。 一些很多现有缩写，保留以供组织中，以及两个字母和三个字母的国家/地区使用的缩写使用下表所示。一些常见的DNS域名称如下图：
 
-![](http://panzhifei.fun/img/post/2021/05/30/171425985.jpg)
+![](http://icing.fun/img/post/2021/05/30/171425985.jpg)
 
 # 资源记录
 
@@ -41,7 +41,7 @@ DNS 数据库中包含的资源记录 (RR)。 每个 RR 标识数据库中的特
 
 常见的RR见下图：
 
-![](http://panzhifei.fun/img/post/2021/05/30/171440482.jpg)
+![](http://icing.fun/img/post/2021/05/30/171440482.jpg)
 
 # DNS服务的工作过程
 
@@ -59,7 +59,7 @@ DNS 查询以各种不同的方式进行解析。客户机有时也可通过使�
 
 DNS 查询的过程如下图所示。
 
-![](http://panzhifei.fun/img/post/2021/05/30/175333937.jpg)
+![](http://icing.fun/img/post/2021/05/30/175333937.jpg)
 
 1. 在浏览器中输入www.qq.com域名，操作系统会先检查自己本地的hosts文件是否有这个网址映射关系，如果有，就先调用这个IP地址映射，完成域名解析。 
 
@@ -85,12 +85,12 @@ DNS 查询的过程如下图所示。
 - 在192.168.145.228服务器上安装上wireshark软件，并打开它，设置数据包为UDP过滤，在`192.168.145.12`客户机上用nslookup命令查询一下`www.sohu.com`，马上可以看到本地DNS服务器直接查全球13台根域中的某几台，然后一步步解析，通过递代的方式，直到找到www.sohu.com对应的IP为220.181.118.87。
 - 本地DNS服务器得到www.sohu.com的IP后，它把这个IP返回给192.168.145.12客户机，完成解析。
 
-![](http://panzhifei.fun/img/post/2021/05/30/171529219.jpg)
+![](http://icing.fun/img/post/2021/05/30/171529219.jpg)
 
 2. DNS服务器设置转发
 
-![](http://panzhifei.fun/img/post/2021/05/30/171552607.jpg)
+![](http://icing.fun/img/post/2021/05/30/171552607.jpg)
 
 因www.sohu.com域名在第一步的验证中使用过，有缓存，为了不受上步实验干扰，我们在客户机上`192.168.145.12`上`nslookup www.baidu.com`。从图上看，本地DNS把请求转发至`192.168.133.10`服务器，`133.10`服务器把得到的IP返回给本地DNS，然后本地DNS再把IP告诉DNS客户机，完成解析。
 
-![](http://panzhifei.fun/img/post/2021/05/30/171606724.jpg)
+![](http://icing.fun/img/post/2021/05/30/171606724.jpg)

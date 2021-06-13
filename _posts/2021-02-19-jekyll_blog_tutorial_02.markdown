@@ -211,7 +211,7 @@ jekyll serve # jekyll s
 # => Now browse to http://localhost:4000
 ```
 
-![quick_start](http://panzhifei.fun/img/post/2021/02/19/quick_start.jpg)
+![quick_start](http://icing.fun/img/post/2021/02/19/quick_start.jpg)
 
 ## Setup `_config.yml`
 
@@ -253,9 +253,9 @@ sidebar-avatar: /img/avatar.jpg                         # Your Avatar
 
 This module is under your avatar. It will display all your social media account. It is also a Responsive Layout. When the screen size become small, it will move to the bottom of the page. But there is a litte change when it move to the bottom.
 
-![mini_about_me](http://panzhifei.fun/img/post/2021/02/19/mini_about_me.jpg)
+![mini_about_me](http://icing.fun/img/post/2021/02/19/mini_about_me.jpg)
 
-![mini_about_me_bottom](http://panzhifei.fun/img/post/2021/02/19/mini_about_me_bottom.jpg)
+![mini_about_me_bottom](http://icing.fun/img/post/2021/02/19/mini_about_me_bottom.jpg)
 
 ### Featured Tags
 
@@ -268,7 +268,7 @@ featured-condition-size: 15
 
 `featured-condition-size` means if the tags' count over 15(or the number you set), it will display on home page.
 
-![tags](http://panzhifei.fun/img/post/2021/02/19/tags.jpg)
+![tags](http://icing.fun/img/post/2021/02/19/tags.jpg)
 
 ### Friends
 
@@ -303,19 +303,19 @@ disqus_username:
 
 First, we should create a new repository for saving our comments:
 
-![gitalk_repo_create](http://panzhifei.fun/img/post/2021/02/19/gitalk_repo_create.jpg)
+![gitalk_repo_create](http://icing.fun/img/post/2021/02/19/gitalk_repo_create.jpg)
 
-![gitalk_repo_setup](http://panzhifei.fun/img/post/2021/02/19/gitalk_repo_setup.jpg)
+![gitalk_repo_setup](http://icing.fun/img/post/2021/02/19/gitalk_repo_setup.jpg)
 
 And then open `Issues` option:
 
-![open_issues](http://panzhifei.fun/img/post/2021/02/19/open_issues.jpg)
+![open_issues](http://icing.fun/img/post/2021/02/19/open_issues.jpg)
 
 Besides, register a new OAuth application:
 
-![oauth_setup](http://panzhifei.fun/img/post/2021/02/19/oauth_setup.jpg)
+![oauth_setup](http://icing.fun/img/post/2021/02/19/oauth_setup.jpg)
 
-![oauth_id](http://panzhifei.fun/img/post/2021/02/19/oauth_id.jpg)
+![oauth_id](http://icing.fun/img/post/2021/02/19/oauth_id.jpg)
 
 ### Google Analytics
 
@@ -325,7 +325,7 @@ ga_track_id: 'UA-'
 ga_domain:         # Default as 'auto', you can use your domain
 ```
 
-![google_analytics](http://panzhifei.fun/img/post/2021/02/19/google_analytics.jpg)
+![google_analytics](http://icing.fun/img/post/2021/02/19/google_analytics.jpg)
 
 ## Write your first blog
 

@@ -27,10 +27,10 @@ categories: post fpga
 
 最后，学习FPGA对于爱好者而言有什么意义呢？我觉得最大的意义还是在于挑战自己。毕竟作为玩家，自己能够做到的事情比较有限，想要做出什么真正实用的东西并不容易。但是如果只是为了玩，也就大可不必去追求所谓的实用意义。如果这样说的话，FPGA大概会是一种很好玩的东西。一来是利用FPGA可以做到一些单片机不容易做到的东西，二来呢就是这个挑战本身了。就像硬核游戏玩家喜欢血缘诅咒这样的高难度游戏，也许也会有爱好者因为难度而喜欢玩FPGA的吧？这里就列举几款爱好者使用FPGA制作的有趣的作品。
 
-![](http://panzhifei.fun/img/post/2021/02/22/0/fpga-pc.jpg)
+![](http://icing.fun/img/post/2021/02/22/0/fpga-pc.jpg)
 *（由f4hdk制作的A2Z FPGA计算机）*
 
-![](http://panzhifei.fun/img/post/2021/02/22/0/LED.jpg)
+![](http://icing.fun/img/post/2021/02/22/0/LED.jpg)
 *（由Ian Hanschen制作的FPGA LED点阵控制器）*
 
 # 关于本教程

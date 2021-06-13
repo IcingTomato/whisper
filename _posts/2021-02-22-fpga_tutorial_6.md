@@ -197,11 +197,11 @@ assign signal_input = direction ? x : signal; // 当方向为输入时输入信�
 
 首先在选择设备的界面，如果最终需要把设计烧录进FPGA测试，则必须要选择对应的型号，否则可以随意选择。DE10-Lite开发板上的器件型号为10M50DAF484C7G。
 
-![](http://panzhifei.fun/img/post/2021/02/22/6/1551048119359-6-1.png)
+![](http://icing.fun/img/post/2021/02/22/6/1551048119359-6-1.png)
 
 在新的工程中建立两个文件，一个是状态机的源代码，另外一个用于仿真的测试代码（test bench）。首先来建立状态机的源代码。直接按照上面的步骤输入代码，但是需要注意的是模块名需要和文件名一致。我这里文件名保存为lesson_7.v，模块名称也就需要相对应的修改成lesson_7。代码应该如下：
 
-![](http://panzhifei.fun/img/post/2021/02/22/6/1551048120706-6-2.png)
+![](http://icing.fun/img/post/2021/02/22/6/1551048120706-6-2.png)
 
 随后是仿真文件，或者叫testbench。Testbench也是一段Verilog代码，不过并不会被综合成硬件，只会在仿真器中运行，作用是测试需要真实下载到板子里的程序。本次要用的Testbench如下：
 
@@ -290,27 +290,27 @@ endmodule
 
 点击菜单中的Tools-Run Simulation Tool-RTL Simulation运行仿真：
 
-![](http://panzhifei.fun/img/post/2021/02/22/6/1551048122442-6-3.png)
+![](http://icing.fun/img/post/2021/02/22/6/1551048122442-6-3.png)
 
 如果你遇到了没有指定仿真工具的错误，则需要进入设置（Tools-Options）里面手动指定，如下图：
 
-![](http://panzhifei.fun/img/post/2021/02/22/6/1551048124284-6-4.png)
+![](http://icing.fun/img/post/2021/02/22/6/1551048124284-6-4.png)
 
 仿真语言选择Verilog HDL。ModelSim启动后，选择菜单中的Compile – Compile… 选择需要仿真的文件，这里就是lesson_7.v和testbench.v两个文件：
 
-![](http://panzhifei.fun/img/post/2021/02/22/6/1551048125970-6-5.png)
+![](http://icing.fun/img/post/2021/02/22/6/1551048125970-6-5.png)
 
 编译完成后应该可以在work里看见这两个模块：
 
-![](http://panzhifei.fun/img/post/2021/02/22/6/1551048127802-6-6.png)
+![](http://icing.fun/img/post/2021/02/22/6/1551048127802-6-6.png)
 
 要开始仿真，在testbench上右键，选择Simulate。进入仿真界面后，可以选择需要的信号观察波形输出，比如这里选择所有的信号：
 
-![](http://panzhifei.fun/img/post/2021/02/22/6/1551048129661-6-7.png)
+![](http://icing.fun/img/post/2021/02/22/6/1551048129661-6-7.png)
 
 最后点击上方的Run开始仿真。因为目前的仿真还很简单，很快就会完成，会出现是否结束的提示。如果需要观察波形则点否，如果点是将会直接关闭仿真软件。从下面的输出可以看到测试成功完成了，状态机表现和预期一致。
 
-![](http://panzhifei.fun/img/post/2021/02/22/6/1551048131324-6-8.png)
+![](http://icing.fun/img/post/2021/02/22/6/1551048131324-6-8.png)
 
 那么至此我们已经知道这个状态机是可以用的了，可以烧写进板子测试了。不过别忘了，在烧写进板子之前，需要分配引脚定义。这里比如让LEDR0为c输出，SW1和SW0分别为a和b输入，而KEY0作为rst，KEY1作为clk，最后同时在LED3-LED1上输出当前的状态。
 
@@ -329,7 +329,7 @@ endmodule
 
 将对应的引脚信息输入进Pin Planner，把电压都设定到3.3V，就完成了引脚分配。
 
-![](http://panzhifei.fun/img/post/2021/02/22/6/1551048134018-6-9.png)
+![](http://icing.fun/img/post/2021/02/22/6/1551048134018-6-9.png)
 
 完成后重新生成编程文件（Generate programming files），运行烧写工具（Tools-Programmer）烧写进板子即可。
 
@@ -337,17 +337,17 @@ endmodule
 
 Xilinx这边的过程也是类似的，首先是建立工程，选择目标设备，随后建立文件编写代码。值得注意的是，Xilinx这边在建立仿真文件的时候需要选择Verilog Test Fixure：
 
-![](http://panzhifei.fun/img/post/2021/02/22/6/1551048135672-6-10.png)
+![](http://icing.fun/img/post/2021/02/22/6/1551048135672-6-10.png)
 
 随后便会提示这个testbench对应的是哪个模块，这里唯一的模块就是lesson_7，直接继续。可以注意到ISE自动生成了testbench的框架，我们只需要编写initial begin end内的测试输入输出即可，十分方便。在补充完成测试主体后应该如图：
 
-![](http://panzhifei.fun/img/post/2021/02/22/6/1551048138121-6-11.png)
+![](http://icing.fun/img/post/2021/02/22/6/1551048138121-6-11.png)
 
 在左边的任务窗格选择Simulation，选中Testbench，在下方的ISim Simulator中选择Simulate Behavioral Model（仿真行为模型）
 
 如果没有出现错误，Isim会自动打开并且运行测试，应该可以直接在下方看到测试成功的提示，同时在上方也可以直接看到所有的测试波形。
 
-![](http://panzhifei.fun/img/post/2021/02/22/6/1551048140228-6-12.png)
+![](http://icing.fun/img/post/2021/02/22/6/1551048140228-6-12.png)
 
 现在我们已经简单测试了这个状态机是可以工作的，剩下的步骤也就是编辑UCF文件生成编程文件下载了。UCF文件同样是按照实际硬件的定义来：
 

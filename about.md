@@ -7,7 +7,7 @@ title: About me
     <blockquote><p>The first rule of the internet: Don't read the comments.<br>
         <s>sudo rm -rf /* is an eternal pain of Operation & Maintenance. Take care of yourself, and be well.</s> </p></blockquote>
 
-        <h5>About Me</h5>
+        <h5>In Brief</h5>
     
         <p>
             The man <s> can use magic </s> who studies Electronic information, Information Security, Computer Science, Japanese, Law, 
@@ -18,7 +18,7 @@ title: About me
 
         <ul>
             <li>Linux User (Debian/Ubuntu/RHEL/CentOS/Fedora...)</li>
-            <li>Networking Engineer</li>
+            <li>Networking/Electronic Engineering</li>
             <li>Embedded Enthusiast (FPGA/MPU/MCU/DSP/SoC...)</li>
             <li>Display Collector</li>
             <li>Radio Amateur</li>
@@ -39,8 +39,8 @@ title: About me
         </p>
     
         <ul>
-            <li><a href="https://panzhifei.fun/post/">403 page</a></li>
-            <li><a href="https://panzhifei.fun/500.html">404 page</a></li>
+            <li><a href="https://icing.fun/post/">403 page</a></li>
+            <li><a href="https://icing.fun/500.html">404 page</a></li>
             <li><a href="https://icingtomato.gitee.io/chp/index.html">Rainbow Fart Generater</a></li>
             <li><a href="http://icingtomato.gitee.io/simple-tool-pages/bilibili-fans/#208259">bilibili fan counter</a></li>
             <li><a href="http://icingtomato.gitee.io/simple-tool-pages/flip-clock/">Flip Clock</a></li>
@@ -50,14 +50,11 @@ title: About me
         <h5>Friends & Links</h5>
 
         <p>
-            Presenting some excellent geeks and my alma mater to you.
+            Presenting some excellent geeks to you.
         </p>
     
         <ul>
             <li><a href="https://tuna.moe/">清华大学TUNA协会</a></li>
-            <li><a href="https://www.u-tokyo.ac.jp/ja/index.html">東京大学</a></li>
-            <li><a href="https://www.i.u-tokyo.ac.jp/">東京大学大学院情報理工学系研究科</a></li>
-            <li><a href="http://www.coelang.tufs.ac.jp/mt/ja/gmod/">東京外国語大学言語モジュール-日本語文法モジュール</a></li>
             <li><a href="http://www.pengzhihui.xyz/">稚晖的个人站</a></li>
             <li><a href="https://blogs.oopswow.com/">IAMLIUBO</a></li>
             <li><a href="https://www.yhi.moe/">Hello from Junde Yhi</a></li>
@@ -66,9 +63,22 @@ title: About me
             <li><a href="https://zephray.me/">module ZephRay;</a></li>
             <li><a href="http://www.guzhimian.fun/">谷治眠's code World</a></li>
             <li><a href="http://7400.me/">EE Archeology 电子考古学</a></li>
-            <li><a href="http://techlee.fun/">Anson Lee | 钛科闹了技Technology</a></li>
+            <li><a href="https://blog.lkzstudio.com/">烂裤子小站</a></li>
         </ul>
 
+        <p>
+            Here is my education experience.
+        </p>
+
+        <ul>
+            <li><a href="https://www.kyoto-u.ac.jp/ja">京都大学</a></li>
+            <li><a href="https://law.kyoto-u.ac.jp/undergraduate/">京都大学-法学部</a></li>
+            <li><a href="https://www.seu.edu.cn/">东南大学</a></li>
+            <li><a href="https://www.u-tokyo.ac.jp/ja/index.html">東京大学</a></li>
+            <li><a href="https://www.i.u-tokyo.ac.jp/">東京大学大学院-情報理工学系研究科</a></li>
+            <li><a href="http://www.tufs.ac.jp/">東京外国語大学</a></li>
+            <li><a href="http://www.coelang.tufs.ac.jp/mt/ja/gmod/">東京外国語大学-言語モジュール-日本語文法モジュール</a></li>
+        </ul>
 
 </div>
 

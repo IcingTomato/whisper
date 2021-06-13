@@ -28,5 +28,5 @@ Both compilers and interpreters are used to convert a program written in a high-
 
 ## Working of Compiler and Interpreter
 
-![](http://panzhifei.fun/img/post/2021/06/01/compiler-interpreter-working.webp)
+![](http://icing.fun/img/post/2021/06/01/compiler-interpreter-working.webp)
 
