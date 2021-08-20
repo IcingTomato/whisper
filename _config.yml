@@ -1,6 +1,6 @@
 name: 小兎宰治IcingTomato
-description: Enjoy it while it lasts, because it never does.
-meta_description: "Enjoy it while it lasts, because it never does."
+description: 人生苦短，及时行乐
+meta_description: "人生苦短，及时行乐"
 
 markdown: kramdown
 highlighter: rouge
@@ -14,4 +14,4 @@ excerpt_separator: <!--more-->
 
 # Details for the RSS feed generator
 url: "icing.fun"
-author: "Icing Tomato"
+author: "小兎宰治IcingTomato"

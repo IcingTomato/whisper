@@ -4,8 +4,13 @@ title: About me
 ---
 
 <div class="me">
-    <blockquote><p>The first rule of the internet: Don't read the comments.<br>
-        <s>sudo rm -rf /* is an eternal pain of Operation & Maintenance. Take care of yourself, and be well.</s> </p></blockquote>
+    <blockquote>
+    <p>
+    人生苦短，及时行乐。<br>
+    Enjoy it while it lasts, because it never does.<br>
+    夜は短し、遊びよ少年。<br>
+    </p>
+    </blockquote>
 
         <h5>In Brief</h5>
     
@@ -22,7 +27,7 @@ title: About me
             <li>Embedded Enthusiast (FPGA/MPU/MCU/DSP/SoC...)</li>
             <li>Display Collector</li>
             <li>Radio Amateur</li>
-            <li>C/C++/Python/Assembly/HTML/CSS/JS/Ruby/MySQL...</li>
+            <li>C/C++/Python/Assembly/HTML/CSS/JavaScript/Ruby/MySQL...</li>
             <li>Cantonese/English/日本語/Français/Deutsch/Русская</li>
             <li><s> Bugs Creater </s></li>
             <li><s> Хорошо ハラショー </s></li>
@@ -42,7 +47,7 @@ title: About me
             <li><a href="https://icing.fun/post/">403 page</a></li>
             <li><a href="https://icing.fun/500.html">404 page</a></li>
             <li><a href="https://icingtomato.gitee.io/chp/index.html">Rainbow Fart Generater</a></li>
-            <li><a href="http://icingtomato.gitee.io/simple-tool-pages/bilibili-fans/#208259">bilibili fan counter</a></li>
+            <li><a href="http://icingtomato.gitee.io/simple-tool-pages/bilibili-fans/#15261940">Bilibili Fans Counter</a></li>
             <li><a href="http://icingtomato.gitee.io/simple-tool-pages/flip-clock/">Flip Clock</a></li>
             <li><a href="http://icingtomato.gitee.io/sosdan/index.html">SOS団</a></li>
         </ul>
