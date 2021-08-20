@@ -16,6 +16,13 @@ title: About me
         The man <s> can use magic </s> who studies Electronic information, Information Security, Computer Science, Japanese, Law, 
         <strong>BUT he is still a Business English major student</strong>.
     </p>
+    <blockquote>
+    <p>
+    莫见乎隐，莫显乎微，故君子慎其独也。<br>
+    There is nothing more visible than what is secret, and nothing more manifest than what is minute. Therefore the superior man is watchful over himself, when he is alone.<br>
+    隠かくれたるより見あらわるるは莫なく、微かすかなるより顕あきらかなるは莫なし。故ゆえに君くん子しは其その独ひとりを慎つつしむなり。<br>
+    </p>
+    </blockquote>
     <h5>Properties</h5>
     <ul>
         <li>Linux User (Debian/Ubuntu/RHEL/CentOS/Fedora...)</li>
@@ -83,9 +90,7 @@ title: About me
             <!-- Author Name -->
             <h4> {{ site.author }} </h4>
             <!-- Author Bio -->
-            <p>
-                There is nothing more visible than what is secret, and nothing more manifest than what is minute. Therefore the superior man is watchful over himself, when he is alone.
-            </p>
+            <p>The one who want to be a Full Stack Developer.</p>
         </section>
     {% endif %}
 </footer>
