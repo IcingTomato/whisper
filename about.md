@@ -11,9 +11,9 @@ title: About me
     夜は短し、遊びよ少年。<br>
     </p>
     </blockquote>
-    <h5>In Brief</h5>
+    <h4>In Brief</h4>
     <p>
-        The man <s> can use magic </s> who studies Electronic information, Information Security, Computer Science, Japanese, Law, 
+        The one <s> can use magic </s> who studies Electronic information, Information Security, Computer Science, Japanese, Law, 
         <strong>BUT he is still a Business English major student</strong>.
     </p>
     <blockquote>
@@ -23,9 +23,9 @@ title: About me
     隠かくれたるより見あらわるるは莫なく、微かすかなるより顕あきらかなるは莫なし。故ゆえに君くん子しは其その独ひとりを慎つつしむなり。<br>
     </p>
     </blockquote>
-    <h5>Properties</h5>
+    <h4>Properties</h4>
     <ul>
-        <li>Linux User (Debian/Ubuntu/RHEL/CentOS/Fedora...)</li>
+        <li>Linux User (Debian/Ubuntu/RHel/CentOS/Fedora...)</li>
         <li>Networking/Electronic Engineering</li>
         <li>Embedded Enthusiast (FPGA/MPU/MCU/DSP/SoC...)</li>
         <li>Display Collector</li>
@@ -35,9 +35,13 @@ title: About me
         <li><s> Bugs Creater </s></li>
         <li><s> Хорошо ハラショー </s></li>
     </ul>
-    <h5>About this Blog</h5>
+    <h4>About this Blog</h4>
     <p>This pages made by <a href="https://pages.github.com/">GitHub Pages</a> and <a href="http://jekyll.com.cn/">Jekyll</a>. </p>
-    <h5>Some Pages...</h5>
+    <h4>Career</h4>
+    <ul>
+        <li><a href="https://www.seeed.cc/">Seeed Studio</a>/<a href="https://www.chaihuo.org/">Chaihuo Maker</a> Products Application Engineer, Product Manager(Wio Terminal for Arduino)</li>
+    </ul>
+    <h4>Some Pages...</h4>
     <p>
         Here is some pages I designed. In pursuit of absolute simplicity.
     </p>
@@ -49,7 +53,7 @@ title: About me
         <li><a href="http://icingtomato.gitee.io/simple-tool-pages/flip-clock/">Flip Clock</a></li>
         <li><a href="http://icingtomato.gitee.io/sosdan/index.html">SOS団</a></li>
     </ul>
-    <h5>Friends & Links</h5>
+    <h4>Friends & Links</h4>
     <p>
         Presenting some excellent geeks to you.
     </p>
