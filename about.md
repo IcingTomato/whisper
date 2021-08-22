@@ -37,6 +37,8 @@ title: About me
     </ul>
     <h4>About this Blog</h4>
     <p>This pages made by <a href="https://pages.github.com/">GitHub Pages</a> and <a href="http://jekyll.com.cn/">Jekyll</a>. </p>
+    <p>Now the website is deployed on <a href="https://www.aliyun.com/">Alibaba Cloud</a>.</p>
+    <img src="/assets/images/atb.png"/>
     <h4>Career</h4>
     <ul>
         <li><a href="https://www.seeed.cc/">Seeed Studio</a>/<a href="https://www.chaihuo.org/">Chaihuo Maker</a> Products Application Engineer, Product Manager(Wio Terminal for Arduino)</li>
@@ -65,6 +67,7 @@ title: About me
         <li><a href="http://www.haoqiabin.cn/">好奇吖斌</a></li>
         <li><a href="http://www.it1995.cn/">IT1995</a></li>
         <li><a href="https://zephray.me/">module ZephRay;</a></li>
+        <li><a href="https://boluochuixue.top/">菠萝吹雪's Studio.</a></li>
         <li><a href="http://www.guzhimian.fun/">谷治眠's code World</a></li>
         <li><a href="http://7400.me/">EE Archeology 电子考古学</a></li>
         <li><a href="https://blog.lkzstudio.com/">烂裤子小站</a></li>
