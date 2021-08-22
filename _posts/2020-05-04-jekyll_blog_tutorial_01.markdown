@@ -87,7 +87,7 @@ jekyll serve -w --host=0.0.0.0
 
 After doing these jobs, we can't visit our website ethier.
 
-# Nginx onfiguration
+# Nginx Configuration
 
 Because Jekyll uses port 4000, so we will make a Nginx "proxy" from port 4000 to port 80.
 
